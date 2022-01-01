@@ -21,7 +21,6 @@ module.exports = {
       { 
         text: 'LeslieC的 JavaScript 博客', 
         items: [
-          { text: 'Github', link: 'https://github.com/chenwenlong7' },
           { text: 'Github', link: 'https://github.com/chenwenlong7' }
         ]
       }
