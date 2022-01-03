@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'leslieC的学习笔记',
+  title: 'LeslieC的学习笔记',
   description: '虽然我卷，但我还是菜啊',
   configureWebpack: {
       resolve: {
@@ -12,7 +12,7 @@ module.exports = {
     ['@vuepress/back-to-top'],
     ['@vuepress/nprogress'],
     ['@vuepress/search', {
-      searchMaxSuggestions: 5
+      searchMaxSuggestions: 10
     }]
   ],
   locales: {
@@ -32,24 +32,31 @@ module.exports = {
         ]
       }
     ],
-    sidebar: [
-      {
+    sidebar: {
+      '/pages/':[
+        {
           title: '欢迎学习',
-          path: '/',
           collapsable: false, // 不折叠
           children: [
-              { title: "学前必读", path: "/" }
+              { title: "学前必读", path: "/pages/guide/study.md" }
           ]
-      },
-      {
-        title: "基础学习",
-        path: '/handbook/ConditionalTypes',
-        collapsable: false, // 不折叠
-        children: [
-          { title: "条件类型", path: "/handbook/ConditionalTypes" },
-          { title: "泛型", path: "/handbook/Generics" }
-        ],
+        },
+        {
+          title: '简单的测试',
+          collapsable: false,
+          path: '/pages/record/study1'
+        }
+      ]
+    },
+    sidebarDepth: 2,
+    lastUpdated: 'Last Updated',
+    serviceWorker: {
+      updatePopup: {
+          message: "有新的内容.",
+          buttonText: '更新'
       }
-    ]
+    },
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页 ！'
   }
 }
