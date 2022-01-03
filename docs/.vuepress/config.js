@@ -8,6 +8,13 @@ module.exports = {
       }
     }
   },
+  plugins: [
+    ['@vuepress/back-to-top'],
+    ['@vuepress/nprogress'],
+    ['@vuepress/search', {
+      searchMaxSuggestions: 5
+    }]
+  ],
   locales: {
     '/': {
       lang: 'zh-CN'
