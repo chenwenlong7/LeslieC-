@@ -45,6 +45,26 @@ module.exports = {
           title: '简单的测试',
           collapsable: false,
           path: '/pages/record/study1'
+        },
+        {
+          title: 'hls的学习',
+          collapsable: false,
+          path: '/pages/record/studyHls'
+        },
+        {
+          title: '深入浅出组件传值',
+          collapsable: false,
+          path: '/pages/record/value'
+        },
+        {
+          title: 'git从入门到放弃',
+          collapsable: false,
+          path: '/pages/record/git'
+        },
+        {
+          title: '前端路由详解',
+          collapsable: false,
+          path: '/pages/record/router'
         }
       ]
     },
