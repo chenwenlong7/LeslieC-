@@ -42,11 +42,6 @@ module.exports = {
           ]
         },
         {
-          title: '简单的测试',
-          collapsable: false,
-          path: '/pages/record/study1'
-        },
-        {
           title: 'hls的学习',
           collapsable: false,
           path: '/pages/record/studyHls'
@@ -65,7 +60,17 @@ module.exports = {
           title: '前端路由详解',
           collapsable: false,
           path: '/pages/record/router'
-        }
+        },
+        {
+          title: '埋点数据上报',
+          collapsable: false,
+          path: '/pages/record/dataReport'
+        },
+        {
+          title: 'svg与canvas',
+          collapsable: false,
+          path: '/pages/record/pictureMore'
+        },
       ]
     },
     sidebarDepth: 2,
