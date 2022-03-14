@@ -1,4 +1,7 @@
 module.exports = {
+  head: [ // 注入到当前页面的 HTML <head> 中的标签
+    ['link', { rel: 'icon', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
+  ],
   title: 'LeslieC的学习笔记',
   description: '虽然我卷，但我还是菜啊',
   configureWebpack: {
@@ -38,7 +41,7 @@ module.exports = {
           title: '欢迎学习',
           collapsable: false, // 不折叠
           children: [
-              { title: "学前必读", path: "/pages/guide/study.md" }
+              { title: "学前必读", path: "/pages/guide/study" }
           ]
         },
         {
@@ -70,6 +73,16 @@ module.exports = {
           title: 'svg与canvas',
           collapsable: false,
           path: '/pages/record/pictureMore'
+        },
+        {
+          title: '移动端适配',
+          collapsable: false,
+          path: '/pages/record/flexable'
+        },
+        {
+          title: '伪元素的使用',
+          collapsable: false,
+          path: '/pages/record/pseudoElement'
         },
       ]
     },
