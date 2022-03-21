@@ -84,6 +84,11 @@ module.exports = {
           collapsable: false,
           path: '/pages/record/pseudoElement'
         },
+        {
+          title: 'Ts中的实践踩坑',
+          collapsable: false,
+          path: '/pages/record/tsStudy'
+        },
       ]
     },
     sidebarDepth: 2,
