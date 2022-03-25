@@ -89,6 +89,11 @@ module.exports = {
           collapsable: false,
           path: '/pages/record/tsStudy'
         },
+        {
+          title: 'export/export default/module.exports的区别',
+          collapsable: false,
+          path: '/pages/record/export:export default:module.exports'
+        },
       ]
     },
     sidebarDepth: 2,
