@@ -90,9 +90,14 @@ module.exports = {
           path: '/pages/record/tsStudy'
         },
         {
-          title: 'export/export default/module.exports的区别',
+          title: 'export/module.exports的区别',
           collapsable: false,
-          path: '/pages/record/export:export default:module.exports'
+          path: '/pages/record/export:module.exports'
+        },
+        {
+          title: '优雅的进行数据处理',
+          collapsable: false,
+          path: '/pages/record/handleData'
         },
       ]
     },
