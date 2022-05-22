@@ -34,7 +34,7 @@ var name = '试试就试试'
 console.log(name)
 ````
 
-![image-20220515171921051](/Users/Lesliechen/Library/Application Support/typora-user-images/image-20220515171921051.png)
+![image-20220515171921051](https://raw.githubusercontent.com/chenwenlong7/blog-resource/master/images/image-20220515171921051.png)
 
 打印却发现 name 竟然变成了一个函数。刚开始小 A 不知所措，后来发现在小 B 开发的 `home.js` 文件中这么写道：
 
@@ -77,7 +77,7 @@ console.log(a)
 
 **打印结果：**
 
-![image-20220515231807089](/Users/Lesliechen/Library/Application Support/typora-user-images/image-20220515231807089.png)
+![image-20220515231807089](https://raw.githubusercontent.com/chenwenlong7/blog-resource/master/images/image-20220515231807089.png)
 
 #### module.exports 使用
 

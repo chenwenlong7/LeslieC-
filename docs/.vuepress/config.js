@@ -99,6 +99,11 @@ module.exports = {
           collapsable: false,
           path: '/pages/record/handleData'
         },
+        {
+          title: '多个commit合并成一个commit',
+          collapsable: false,
+          path: '/pages/record/git-commit'
+        },
       ]
     },
     sidebarDepth: 2,
