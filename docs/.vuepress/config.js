@@ -104,6 +104,11 @@ module.exports = {
           collapsable: false,
           path: '/pages/record/git-commit'
         },
+        {
+          title: 'vue设计与实现demo-01',
+          collapsable: false,
+          path: '/pages/record/vue3design-01'
+        },
       ]
     },
     sidebarDepth: 2,
