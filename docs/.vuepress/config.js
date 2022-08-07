@@ -109,6 +109,11 @@ module.exports = {
           collapsable: false,
           path: '/pages/record/vue3design-01'
         },
+        {
+          title: 'vue设计与实现demo-02',
+          collapsable: false,
+          path: '/pages/record/vue3design-02'
+        },
       ]
     },
     sidebarDepth: 2,
